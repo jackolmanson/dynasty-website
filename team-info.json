@@ -1,0 +1,110 @@
+{
+    "jolm":
+        {
+            "firstName": "Jack",
+            "lastName": "Olmanson",
+            "bio": "Notre Dame. Guinness. Steds. Fantasy Football. What other words are there to be said? Row the boat, ski u mah, skol irish. Although there have been some near sacko finishes, there has also been a second and third place finish. Some day the elusive championship will come. Melvin!",
+            "draft picks": ["1", "2", "3", "4", "5", "6", "7", "8", "8 (via Bob)", "9", "10", "11", "12", "13", "14", "15", "15 (via Bob)"],
+            "pic-name": "rothstein",
+            "pic-description": "Jack enjoying a night out with his tree friend, Rufus. What a Friday!"
+        }, 
+    "ross":
+        {
+            "firstName": "Jack",
+            "lastName": "Rothstein",
+            "bio": "The Celtics in the 60's. The Steelers in the 70's. The 49ers in the 80's. The Bulls in the 90's. The Patriots in the 2000's. And Jack Rothstein in the 2010's. With three championships in the first four years of the league, we literally had to reset everything and change the rules. That's powerful. Although he may not be as fierce as he once was (not saying he isn't good, just not <i>win every year good</i>), he still made the playoffs last year and has a good foundation for the future.",
+            "draft picks": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
+            "pic-name": "rothstein",
+            "pic-description": "Jack making an athletic grab as first baseman. He would be an asset for the Hamel Hawks!"
+        }, 
+    "hags":
+        {
+            "firstName": "Matt",
+            "lastName": "Hagan",
+            "bio": "Poor Hags. Twice Sacko. Had to take the ACT as punishment. Was good one year at least. You'd think he'd have some insider information from Bob H the PR superstar. Oh well.",
+            "draft picks": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
+            "pic-name": "hagan",
+            "pic-description": "Matt is making an expert return against Minnetonka here. Go Trojans!"
+        },
+    "urbs":
+        {
+            "firstName": "Andrew",
+            "lastName": "Urban",
+            "bio": "Made some good draft picks and pickups to win the league last year. He's the champion until he's not, but he has some decisions to make with both Dalvin and DeAndre likely requiring a first round pick to be kept",
+            "draft picks": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
+            "pic-name": "urban",
+            "pic-description": "Andrew making a push for everyone to join the army. Strange when he himself is not in the army?"
+        },
+    "ains":
+        {
+            "firstName": "Luke",
+            "lastName": "Ainsworth",
+            "bio": "Classic Ains. The only league member to never reach the playoffs in the first four years of the league, he finally struck gold and snuck in due to the decision to have divisions (green would have made it over him if not). His sacko year was a light punishment, only the blazin' challenge, although still not something many would enjoy. Maybe last year will be momentum into the next. It should also be noted he is a Beta frat star.",
+            "draft picks": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
+            "pic-name": "ainsworth",
+            "pic-description": "Luke is holding his friend Kodi the koala."
+        },
+    "bob":
+        {
+            "firstName": "Bobby",
+            "lastName": "Isbell",
+            "bio": "Bob's a newcomer to the league, and he really took the league by storm with losing his first 3 or 4 games. However, he responded by making two bold trades and then scoring 250 points (a league record). He won consolation, meaning he has the best lottery odds, and he has some of the best keeper options in the league. Could be a big year next year.",
+            "draft picks": ["1", "2", "3", "4", "5", "6", "7", "9", "10", "11", "12", "13", "14", "16", "16 (via Jolm)", "17", "17 (via Jolm)"],
+            "pic-name": "isbell",
+            "pic-description": "Bobby making a great throw for the Trojans. Great work, Bobby Baseball!"
+        }, 
+    "brent":
+        {
+            "firstName": "Brent",
+            "lastName": "Prodahl",
+            "bio": "Nearly called his shot. High confidence entering the league, and he ends up with a second place finish. He hit on many draft picks, so he has another year to try to capitalize before it may become too costly to keep the core. If Goetz can get a sacko, maybe Brent can too. The rest of us can only hope.",
+            "draft picks": ["1", "2", "2 (from Green)", "3", "4", "5", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
+            "pic-name": "prodahl",
+            "pic-description": "Brent holding a roll of toilet paper he won from his apartment."
+        },
+    "chad": 
+        {
+            "firstName": "Chad",
+            "lastName": "Musser",
+            "bio": "Trust the process. Chad was always planning for the future in the previous years of the league, but now that the league reset he is full speed ahead. He was easily the best team last year, and has many great keeper options for next year. He should easily repeat as one of the top teams. In Lamar and CMC we trust.",
+            "draft picks": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
+            "pic-name": "musser",
+            "pic-description": "Chad smiling big for the camera in a baseball photoshoot"
+        },
+    "glaze":
+        {
+            "firstName": "Ethan",
+            "lastName": "Glaser",
+            "bio": "Glaaaaaaaaze. He's got a machine learning thing going for fantasy, so maybe he's gonna make some moves next year. Never sacko competitor, but also not really one to make deep runs into the playoffs. Maybe it'll change, maybe not.",
+            "draft picks": ["1", "2", "3", "4", "4 (via Goetz)", "5", "6", "6 (via Goetz)", "7", "8", "8 (via Goetz)", "9", "11", "12", "14", "16", "17"],
+            "pic-name": "glaser",
+            "pic-description": "Ethan is a strong advocate for pursuing research opportunities. Smart man!"
+        },
+    "goetz":
+        {
+            "firstName": "Nick",
+            "lastName": "Goetz",
+            "bio": "Goetz has been a big mouth in the league since its inception, although his team is more well known for its blunders than its successes. An accurate NFL comparison could be the Bills or Vikings (skol). What are these blunders you may ask? L3 and sacko are the first to come to mind.",
+            "draft-picks": ["1", "2", "3", "5", "7", "9", "10", "10 (via Glaze)", "11", "12", "13", "13 (via Glaze)", "15", "15 (via Glaze)", "16", "17", "17 (via Spitty)"],
+            "pic-name": "goetz",
+            "pic-description": "Goetz wearing his newly bought sacko shirt in Africa. Looks great, Nick!"
+        },
+    "green": 
+        {
+            "firstName": "Eli",
+            "lastName": "Greenblat",
+            "bio": "Quite the wildcard. One year, he's making the playoffs with a sub .500 record and winning the championship (the only non-Rothstein winner before resetting the league). Then, another year he's missing the playoffs after going 8-5. Never afraid to make some bold trades. Personally, he would be the most entertaining sacko of the people who have yet to earn the title.",
+            "draft-picks": ["1", "3", "4", "5", "6", "6 (via Brent)", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
+            "pic-name": "greenblat",
+            "pic-description": "Eli is smiles only after qualifying for the state geo bee. Good luck Eli!"
+        },
+    "spitty": 
+        {
+            "firstName": "Zach",
+            "lastName": "Spiczka",
+            "bio": "Not consiered  an expansion team, instead as a reclassified franchise. Finished as a bottom three team his first year running the show, but it can take time to build a contender. Don't be surprised if he gets a playoff win this year.",
+            "draft-picks": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "14 (via Goetz)", "15", "16"],
+            "pic-name": "spiczka",
+            "pic-description": "Zach looks off into the distance after dismounting his ATV."
+        }    
+}

@@ -1,0 +1,105 @@
+/* use google font of roboto, and default to sans serif otherwise. White background for now, may switch to photo later on. */
+
+body {
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+/* define the bullets and sub bullets */
+ul {
+    list-style: square;
+    color: black;   
+}
+
+ul ul {
+    list-style: circle;
+}
+
+/* define link behavior */
+a:link {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+/* make flex; work on navigation bar */
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0;
+    background: #0e5f7b;
+}
+
+.navigation a {
+    display: block;
+    padding: .75em;
+    color: white;
+}
+
+.navigation a:hover {
+    background: #4a95ea;
+}
+
+/* this photo is included when not for a school project */
+.sacko-trophy {
+    height: 300px;
+    width: auto; 
+}
+
+/* this photo is included when for a school project */
+.fantasy-logo {
+    height: 300px;
+    width: auto; 
+    background-color: transparent;
+}
+
+/* grid behavior based on in-class example */
+.draft-picks {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 0 20px;
+    width: 100%;
+    display: grid;
+    /* Define Auto row size */
+    grid-auto-rows: 100px;
+    /* define our columns */
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-gap: 1em;
+    list-style: none;
+}
+
+
+.draft-picks div {
+    padding: 3px 10px;
+    background-color: #b2d7ef;
+}
+
+
+/* allow for changing window sizes to impact navigation bar */
+@media all and (max-width: 800px) {
+    .navigation {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .navigation {
+        flex-flow: column wrap;
+        padding: 0;
+    }
+    .navigation a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid rgba(255,255,255,0.3);
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    .navigation li:last-of-type a {
+        border-bottom: none;
+    }
+}
