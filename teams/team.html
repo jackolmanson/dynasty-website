@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>{{ $ctrl.teams.value.firstName}} {{ $ctrl.teams.value.lastName}}'s Team</title>
+<!--    <link href="teams.css" type="text/css" rel="stylesheet">-->
+</head>
+    
+<body ng-controller=TeamController>
+    <div id="team-select-form" >
+        <form id=team-select ng-model="owner" ng-click="$ctrl.changeMember()" ng-init="$ctrl.changeMember()" >
+            <h1>What team would you like to view?</h1>
+
+            <input type="radio" name="team-selector" value="jolm" ng-model="$ctrl.team_select.name" checked >Jolm
+            <input type="radio" name="team-selector" value="ains" ng-model="$ctrl.team_select.name">Ains
+            <input type="radio" name="team-selector" value="hags" ng-model="$ctrl.team_select.name">Hags
+            <input type="radio" name="team-selector" value="ross" ng-model="$ctrl.team_select.name">Ross
+            <input type="radio" name="team-selector" value="urbs" ng-model="$ctrl.team_select.name">Urbs
+            <input type="radio" name="team-selector" value="bob" ng-model="$ctrl.team_select.name">Bob
+            <input type="radio" name="team-selector" value="brent" ng-model="$ctrl.team_select.name">Brent
+            <input type="radio" name="team-selector" value="chad" ng-model="$ctrl.team_select.name">Chad
+            <input type="radio" name="team-selector" value="glaze" ng-model="$ctrl.team_select.name">Glaze
+            <input type="radio" name="team-selector" value="goetz" ng-model="$ctrl.team_select.name">Goetz
+            <input type="radio" name="team-selector" value="green" ng-model="$ctrl.team_select.name">Green
+            <input type="radio" name="team-selector" value="spitty" ng-model="$ctrl.team_select.name">Spitty
+           
+<!--
+            <select name="team-select" id="team-select">
+                <option value="jolm" ng-model="flag">Jack Olmanson</option>
+                <option value="ains" ng-model="flag">Luke Ainsworth</option>
+            </select>
+            <input type="submit" name="Submit"> 
+-->
+
+        </form>
+    
+    </div>
+    
+    
+    <div>
+    <h1 id="name"> </h1>
+    <p id="bio"> </p>
+    <img id="prof-pic" class="prof-pic" src='$ctrl.pic_source' alt=`{$ctrl.pic_description}` />
+    <!-- Poll on if the user believes this team will make the playoffs or not -->
+<!--
+    <h3>Poll:</h3>
+    <form action="">
+        <p>Will he make the playoffs this year?
+        <input type="radio" name="playoffs" value="yes" \>Yes
+        <input type="radio" name="playoffs" value="no" />No
+        </p>
+        <input type="submit" name="submit" value="Submit" />
+    </form>    
+-->
+        
+   
+    </div>
+    
+    <div id="keepers"> <!-- ng-repeat wasn't working, so had to go with a kinda hacky route -->
+        <table>
+            <tr id="title">
+                <th>Name</th> <hr />
+                <th>Team    </th>
+                <th>Keeper Round    </th>
+            </tr>
+            <tr>
+                <th id='p0'></th>
+                <th id='t0'></th>
+                <th id='k0'></th>   
+            </tr>
+            <tr>
+                <th id='p1'></th>
+                <th id='t1'></th>
+                <th id='k1'></th>   
+            </tr>
+            <tr>
+                <th id='p2'></th>
+                <th id='t2'></th>
+                <th id='k2'></th>   
+            </tr>
+            <tr>
+                <th id='p3'></th>
+                <th id='t3'></th>
+                <th id='k3'></th>   
+            </tr>
+            <tr>
+                <th id='p4'></th>
+                <th id='t4'></th>
+                <th id='k4'></th>   
+            </tr>
+            <tr>
+                <th id='p5'></th>
+                <th id='t5'></th>
+                <th id='k5'></th>   
+            </tr>
+            <tr>
+                <th id='p6'></th>
+                <th id='t6'></th>
+                <th id='k6'></th>   
+            </tr>
+            <tr>
+                <th id='p7'></th>
+                <th id='t7'></th>
+                <th id='k7'></th>   
+            </tr>
+            <tr>
+                <th id='p8'></th>
+                <th id='t8'></th>
+                <th id='k8'></th>   
+            </tr>
+            <tr>
+                <th id='p9'></th>
+                <th id='t9'></th>
+                <th id='k9'></th>   
+            </tr>
+            <tr>
+                <th id='p10'></th>
+                <th id='t10'></th>
+                <th id='k10'></th>   
+            </tr>
+            <tr>
+                <th id='p11'></th>
+                <th id='t11'></th>
+                <th id='k11'></th>   
+            </tr>
+            <tr>
+                <th id='p12'></th>
+                <th id='t12'></th>
+                <th id='k12'></th>   
+            </tr>
+            <tr>
+                <th id='p13'></th>
+                <th id='t13'></th>
+                <th id='k13'></th>   
+            </tr>
+            <tr>
+                <th id='p14'></th>
+                <th id='t14'></th>
+                <th id='k14'></th>   
+            </tr>
+             <tr>
+                <th id='p15'></th>
+                <th id='t15'></th>
+                <th id='k15'></th>   
+            </tr>
+             <tr>
+                <th id='p16'></th>
+                <th id='t16'></th>
+                <th id='k16'></th>   
+            </tr>
+            
+        </table>
+        
+    </div>
+    <br />
+    <hr />
+    
+    <div id="draft-picks">
+    <h2>Draft Picks</h2>
+    <p>Although draft order has yet to be decided, {{ $ctrl.firstName }} has picks in the following rounds:</p>
+    <ul >
+        <li ng-repeat="pick in $ctrl.draft">{{ $ctrl.draft[$index] }} </li>
+
+    </ul>
+    </div>
+     
+</body>
+    
+</html>
