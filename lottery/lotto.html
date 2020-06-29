@@ -1,0 +1,7 @@
+<h1> Mock Lottery Results </h1>
+<form action="">
+    <input type="submit" value="New Mock" name="Go" />
+</form>
+<ol id='mock-results'>
+    <li ng-repeat="result in $ctrl.mock_results">{{ $ctrl.mock_results[$index].name }} ({{ $ctrl.mock_results[$index].combo }}) </li>
+</ol>
